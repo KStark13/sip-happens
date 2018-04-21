@@ -1,0 +1,27 @@
+{
+  "name": "install",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "agegate": "^3.0.0",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.3.0",
+    "react-geosuggest": "^2.7.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.3",
+    "react-transition-group": "^2.3.1",
+    "recompose": "^0.26.0",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

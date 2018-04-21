@@ -1,0 +1,16 @@
+.placeitems {
+	background-color:#fff;
+	border-radius: 2px;
+	box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+	border: outset 5px;
+ 	border-color: darkslategrey;
+  	margin-bottom: 10px;
+  	position: relative;
+  	text-align: center;
+  	width: 300px;
+
+};
+
+.tasting {
+	margin-left: 20px;
+}

@@ -1,0 +1,38 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 520px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  border: outset 5px;
+  border-color: darkslategrey;
+}
+
+.card > .img-container {
+  height: 63%;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+}
+.card > .img-container > img {
+  width: 100%
+}
+
+.card > .content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 10px;
+}
+
+.card > .content > ul {
+  list-style-type: none;
+}
+
+.card > .content > ul > li {
+  margin-top: 16px;
+}
+
+
