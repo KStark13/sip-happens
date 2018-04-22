@@ -23,7 +23,8 @@ class Landing extends React.Component {
 		if(this.state.year > 1997) {
 			alert ('Age check failed!')
 		} else {
-			window.location= "http://github.com/kstark13"
+	/*		window.location= "http://github.com/kstark13"*/
+			this.props.ageHandler()
 		}
 	}
 

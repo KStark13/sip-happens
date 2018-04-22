@@ -3,7 +3,7 @@ var quizQuestions = [
       question: "What kind of tea do you prefer?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Herbal, fruity or green teas"
           },
           {
@@ -11,11 +11,11 @@ var quizQuestions = [
               content: "Bold or spicy teas such as Masala Chai, Ceylon or Assam"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Black teas like Darjeeling or Earl Grey"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Sweet tea"
           }
       ]
@@ -24,7 +24,7 @@ var quizQuestions = [
       question: "Of the below, which describes your favorite scent?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Herbal"
           },
           {
@@ -32,11 +32,11 @@ var quizQuestions = [
               content: "Earthy"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Chocolate"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Floral"
           }
       ]
@@ -45,7 +45,7 @@ var quizQuestions = [
       question: "Which of these would you choose for your last meal?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Chicken"
           },
           {
@@ -53,11 +53,11 @@ var quizQuestions = [
               content: "Tacos"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Steak"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Fresh fruit"
           }
       ]
@@ -66,7 +66,7 @@ var quizQuestions = [
       question: "Do you smoke (cigarettes, cigars, whatever…)?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Few times a week"
           },
           {
@@ -74,11 +74,11 @@ var quizQuestions = [
               content: "Few times a year"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Daily"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Never"
           }
       ]
@@ -87,7 +87,7 @@ var quizQuestions = [
       question: "If you could travel to any of the wine producing regions below, which would you visit?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "California"
           },
           {
@@ -95,11 +95,11 @@ var quizQuestions = [
               content: "Argentina"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "France"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Australia"
           }
       ]
@@ -108,7 +108,7 @@ var quizQuestions = [
       question: "How would you describe your sense of adventure?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Well Developed"
           },
           {
@@ -116,11 +116,11 @@ var quizQuestions = [
               content: "Moderate"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Extreme"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Limited"
           }
       ]
@@ -129,7 +129,7 @@ var quizQuestions = [
       question: "What type of fruit do you prefer?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Peaches"
           },
           {
@@ -137,11 +137,11 @@ var quizQuestions = [
               content: "Strawberries"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Plums"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Oranges"
           }
       ]
@@ -150,7 +150,7 @@ var quizQuestions = [
       question: "What kind of wine drinker are you?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Few times a week"
           },
           {
@@ -158,11 +158,11 @@ var quizQuestions = [
               content: "Social drinker"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Wine Expert"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Couple times a year"
           }
       ]
@@ -171,7 +171,7 @@ var quizQuestions = [
       question: "What are your favorite types of dessert?",
       answers: [
           {
-              type: "White Wine",
+              type: "WhiteWine",
               content: "Lemon Bars"
           },
           {
@@ -179,11 +179,11 @@ var quizQuestions = [
               content: "Custards"
           },
           {
-              type: "Red Wine",
+              type: "RedWine",
               content: "Chocolate"
           },
           {
-              type: "Sweet Wine",
+              type: "SweetWine",
               content: "Cakes"
           }
       ]

@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = props => 
 	<nav className="navbar navbar-default">
 		<div className="container-fluid">
-			<div className="navbar-header">
+			{/*<div className="navbar-header">
 				<Link className="navbar-brand" to="/">
 				Sip-Happens
 				</Link>
-			</div>
+			</div>*/}
 			<ul className="nav navbar-nav">
 				{/*link in the navbar to the home page*/}
 				<li className={window.location.pathname === "/home" ? "active"	: ""}>
