@@ -2,7 +2,7 @@ import React from 'react';
 import "./Info.css"
 
 const Info = () =>
-<div className="container">
+<div className="collection container">
 	<div className="row">
 		<div className="col-md-12">
 			<h1>Wine Basics</h1>

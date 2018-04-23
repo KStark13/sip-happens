@@ -128,13 +128,16 @@ class QuizPage extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-         
+      <div className="App container">
+        <div className="App-header row">
+          <div className="App-body col-md-10">
           <h1>Quiz</h1>
           <h7>The following questionnaire is designed to capture your wine preferences so that Sip Happens may better serve you.</h7>
         </div>
+        </div>
+        <div className="quizanswers">
         {this.state.result ? this.renderResult() : this.renderQuiz()}
+      </div>
       </div>
     );
   }

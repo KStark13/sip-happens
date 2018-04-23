@@ -1,0 +1,11 @@
+.logo {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1000px;
+  color: #f33f80;
+  text-align: center;
+}
+
+.jumbotron {
+	background-color: none;
+	background: rgb(0,0,0, 0.6);
+}

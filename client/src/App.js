@@ -6,8 +6,9 @@ import QuizPage from './pages/QuizPage/QuizPage';
 import Facts from './pages/Facts/Facts';
 import Winelist from './pages/Winelist/Winelist';
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+/*import Footer from './components/Footer/Footer';*/
 import Wrapper from './components/Wrapper/Wrapper';
+import "./App.css";
 
 class App  extends Component {
     state = {
@@ -42,7 +43,7 @@ class App  extends Component {
            <Landing ageHandler={this.ageHandler}/>
 
         }
-         <Footer />
+       {/*  <Footer />*/}
       </div>
     </Router>
     )}

@@ -1,1 +1,33 @@
+.agebox {
+  font-family: Tahoma, Geneva, sans-serif;
+  padding-top: 60px;
+/*   background: #ECEFF1; */
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  align-content: flex-start;
+  font-size: 25px;
+  overflow: auto;
+ /*  box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
+  text-align: center;
+  background-color: none;
+  background: rgb(255,255,255, 0.5);
+}
 
+form {
+	align-items: center;
+}
+
+.logo {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 150px;
+  color: #f33f80;
+  width: 1000px;
+}
+
+.agesubmit {
+  color:black;
+}

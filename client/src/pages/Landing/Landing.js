@@ -1,5 +1,6 @@
 import React from 'react';
-import AgeGate from 'agegate';
+import Logo from "../../components/Logo/Logo"
+import "./Landing.css";
 
 class Landing extends React.Component {
 	/*setting initial values of this.state.year*/
@@ -20,10 +21,9 @@ class Landing extends React.Component {
 	handleFormSubmit = event => {
 		event.preventDefault();
 		console.log('submit: ' + this.state.year)
-		if(this.state.year > 1997) {
+		if(this.state.year > 1997 || this.state.year === "") {
 			alert ('Age check failed!')
 		} else {
-	/*		window.location= "http://github.com/kstark13"*/
 			this.props.ageHandler()
 		}
 	}
@@ -31,19 +31,28 @@ class Landing extends React.Component {
 
 	render() {
 		return(
-			<form>
-				<h1>What year were you born? </h1>
-				<input 
-					type="text"
-					placeholder="Year Born"
-					name="birthyear"
-					value={this.state.year}
-					onChange={this.handleInputChange}
-				/>
-
-				<button onClick={this.handleFormSubmit}> Enter</button>
-			</form>
- 
+			<div>
+			<Logo />
+			<div className="container">
+				<div className="agebox row">
+					<div className="col-md-8">
+						<form>
+							<h1>What year were you born? </h1>
+							<input 
+								className="form-control"
+								type="text"
+								placeholder="Year Born"
+								name="birthyear"
+								value={this.state.year}
+								onChange={this.handleInputChange}
+							/>
+							<br/>
+							<button  className="btn btn-default" onClick={this.handleFormSubmit}> Enter</button>
+						</form>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			</div>
 			);
 	}
 }

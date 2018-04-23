@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import "./AnswerOption.css"
+import "../../pages/QuizPage/Quiz.css"
 
 function AnswerOption(props) {
 

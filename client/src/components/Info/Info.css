@@ -1,9 +1,15 @@
 
-.container {
-	background-color: #3a8b91;
-	width: 100%
-}
-
-h1 {
-	text-align: center;
+.collection{
+	padding-top: 60px;
+  background: #ECEFF1;
+  height: 900px;
+  width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  align-content: flex-start;
+  font-size: 25px;
+  overflow: auto;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
