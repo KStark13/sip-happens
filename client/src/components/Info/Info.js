@@ -58,7 +58,7 @@ const Info = () =>
 			</ol>
 		</div>
 		<div className= "col-md-8">
-			<img src={require("../../images/pairing.png")} alt="Wine Paring Chart" />
+			<img className="image2"src={require("../../images/pairing.png")} alt="Wine Paring Chart" />
 		</div>
 	</div>
 </div>

@@ -1,5 +1,6 @@
 body {
-  font-family: Tahoma, Geneva, sans-serif;
+font-family: Tahoma, Geneva, sans-serif;
+color: #f33f80;
 background-image: url("images/wineBottles.jpg");
 background-size: cover;
 }

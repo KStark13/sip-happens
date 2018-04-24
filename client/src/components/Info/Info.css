@@ -31,10 +31,15 @@ width: 1500px;
 
 .winebasics {
   text-align: justify;
-  padding-left: 80px;
+  padding-left: 250px;
+  padding-bottom: 30px;
 },
 
 img {
 vertical-align: middle;
 margin-top: 100px;
+}
+
+.image2 {
+  margin-left: 400px;
 }

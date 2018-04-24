@@ -1,0 +1,47 @@
+.HomeCollection{
+	margin-top: 120px;
+ margin-left: 300px;
+  padding-top: 120px;
+  background: #ECEFF1;
+  height: 900px;
+  width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  justify-content: space-around;
+  align-content: flex-start;
+  font-size: 25px;
+  overflow: auto;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.Quote{
+  text-align: center;
+  font-size: 100px;
+}
+.creator1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.creator2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+.creator3{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+
+}
