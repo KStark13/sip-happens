@@ -3,7 +3,7 @@
 padding-top: 50px;
   background: rgba(0, 0, 0, 0.2); 
   height: 150px;
-  width: 1000px;
+  width: 400px;
   font-size: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -12,5 +12,11 @@ padding-top: 50px;
   align-content: flex-start;
   overflow: auto;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  float: right;
+  margin: 15px;
 
+}
+
+.MyMapComponent {
+  float: right;
 }

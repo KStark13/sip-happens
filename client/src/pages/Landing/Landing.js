@@ -33,15 +33,15 @@ class Landing extends React.Component {
 		return(
 			<div>
 			<Logo />
-			<div className="container">
+			<div className="agecontiner container">
 				<div className="agebox row">
-					<div className="col-md-8">
+					<div className="col-md-4">
 						<form>
 							<h1>What year were you born? </h1>
 							<input 
 								className="form-control"
 								type="text"
-								placeholder="Year Born"
+								placeholder="4 digit year of birth"
 								name="birthyear"
 								value={this.state.year}
 								onChange={this.handleInputChange}

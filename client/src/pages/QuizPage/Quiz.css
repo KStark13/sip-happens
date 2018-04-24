@@ -1,12 +1,13 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 .App {
   background: rgb(255,255,255, 0.5);
   margin-top: 150px;
 }
 .App-body {
   text-align: center;
+  padding-left: 140px;
 }
 .App.container {
   margin-top: 150px;
@@ -15,18 +16,14 @@
   text-align: center;
 }
 
-.container {
+/* .container {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
   border-radius: 3px;
 }
 
-@media (min-width: 769px) {
-  .container {
-    margin: 2.5rem auto;
-  }
-}
+
 
 /* Result Component */
 .result {
@@ -59,7 +56,7 @@
 }
 
 .answerOption:hover {
-  background-color: #eefbfe;
+  background-color: rgb(211,232,7, 0.5);
 }
 
 .radioCustomButton {

@@ -4,8 +4,8 @@ import "./Info.css"
 const Info = () =>
 <div className="collection container">
 	<div className="row">
-		<div className="col-md-12">
-			<h1>Wine Basics</h1>
+		<div className="winebasics col-lg-10">
+			<h1 className="title">Wine Basics</h1>
 				<p>Wine is made with grapes, but they are different than what you’ll find at the grocery store. 
 				Wine grapes (the latin name is Vitis vinifera) are small, sweet, have thick skins, and contain seeds. 
 				There are over 1,300 identified, commercial wine grape varieties, 
@@ -15,10 +15,10 @@ const Info = () =>
 
 	<div className="row">
 		<div className= "col-md-4">
-			<img src={require("../../images/winetasting.jpg")} alt="Wine Paring Chart" />
+			<img className= "images" src={require("../../images/winetasting.jpg")} alt="Wine Paring Chart" />
 		</div>
-		<div className= "col-md-8">
-			<h1>The 5 S's of Wine Tasting</h1>
+		<div className= "tasting col-md-8">
+			<h1 className="title">The 5 S's of Wine Tasting</h1>
 				<h3>1. Swirl</h3>
 					<p>The first tip to enjoying a good red wine is ensuring that it’s properly aerated, 
 					and swirling it is one way to achieve some aeration if the bottle has just been opened 
@@ -41,8 +41,9 @@ const Info = () =>
 		</div>
 	</div>
 	<div className= "row">
-		<div className= "col-md-4">
-			<h1>9 Tips for Pairing Wine and Food</h1>
+		<div className= "col-md-12">
+			
+			<h1 className="title">9 Tips for Pairing Wine and Food</h1>
 			<p>If you’re just getting started, you’ll find these tried-and-true methodologies to produce consistently great pairings. That said, as you get more familiar with different wines, you’ll become confident and can experiment breaking the rules!If you’re just getting started, you’ll find these tried-and-true methodologies to produce consistently great pairings. That said, as you get more familiar with different wines, you’ll become confident and can experiment breaking the rules!</p>
 			<ol>
 				<li>The wine should be more acidic than the food.</li>

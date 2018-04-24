@@ -24,7 +24,7 @@ class Facts extends React.Component {
 	componentDidMount() {
 		console.log('componentDidMount')
 
-	const url= 'https://api.foursquare.com/v2/venues/search?ll=32.7766642,-96.79698789999998&query=wine&v=20150214&m=foursquare&client_secret=DLVAGQEGIRGWNG0F5JIU51JN02WYEHHIMIPAI2PWF0ZAPPSF&client_id=SBR5VDRMVPMIQ5KGWPHGTJVUEX03I511OEYZIH2MXHHQLUB1&limit=10'
+	const url= 'https://api.foursquare.com/v2/venues/search?ll=32.7766642,-96.79698789999998&query=wine&v=20150214&m=foursquare&client_secret=DLVAGQEGIRGWNG0F5JIU51JN02WYEHHIMIPAI2PWF0ZAPPSF&client_id=SBR5VDRMVPMIQ5KGWPHGTJVUEX03I511OEYZIH2MXHHQLUB1&limit=12'
 	
 	superagent
 	.get(url)
@@ -59,8 +59,8 @@ class Facts extends React.Component {
 		console.log("calling rendering Fact.js  " + markers )
 		return (
 			<div>
+	
 				<Info />
-				{/*<Geo/>*/}
 				<div className= "map">
 				<MyMapComponent center={location} markers={this.state.venues} isMarkerShown="true"
 				/>

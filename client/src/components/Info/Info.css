@@ -1,9 +1,20 @@
 
-.collection{
-	padding-top: 60px;
-  background: #ECEFF1;
-  height: 900px;
-  width: 1200px;
+/* .winebasics {
+  background: rgb(0,0,0, 0.6);
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.tasting {
+  text-overflow: wrap;
+} */
+
+.collection {
+  margin-top: 120px;
+  padding-top: 60px;
+  background: rgb(255,255,255, 0.5);
+/* height: 900px;  */
+width: 1500px;
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
@@ -12,4 +23,18 @@
   font-size: 25px;
   overflow: auto;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.title {
+  text-align: center;
+}
+
+.winebasics {
+  text-align: justify;
+  padding-left: 80px;
+},
+
+img {
+vertical-align: middle;
+margin-top: 100px;
 }

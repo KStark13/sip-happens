@@ -1,11 +1,18 @@
-.logo {
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 1000px;
+/* .logo {
+  font-size: 2000px;
   color: #f33f80;
   text-align: center;
-}
+} */
 
 .jumbotron {
 	background-color: none;
 	background: rgb(0,0,0, 0.6);
+  color: #f33f80;
+  text-align: center;
+  font-size: 30px;
+	/* text-align: center; */
 }
+/* 
+.jumbotron .h1, .jumbotron h1 {
+  font-size: 400%;
+} */
