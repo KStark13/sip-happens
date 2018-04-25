@@ -10,8 +10,13 @@
     "mongoose": "^5.0.15",
     "nodemon": "^1.17.3"
   },
-  "devDependencies": {},
+"devDependencies": { "nodemon": "^1.17.3"},
   "scripts": {
+     "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
