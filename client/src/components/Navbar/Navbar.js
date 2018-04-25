@@ -26,6 +26,11 @@ const Navbar = props =>
 				<Link className="navlink"  to="/facts">Facts</Link>
 				</li>
 
+			{/*link in the navbar to the map page*/}
+				<li className={window.location.pathname === "/map" ? "active" : ""}>
+				<Link className="navlink"  to="/map">Map</Link>
+				</li>
+
 				<li className={window.location.pathname === "/winelist" ? "active" : ""}>
 				<Link className="navlink" to="/winelist">Wine List</Link>
 				</li>
