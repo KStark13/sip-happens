@@ -1,9 +1,9 @@
 .HomeCollection{
-	margin-top: 120px;
- margin-left: 300px;
+	margin-top: 100px;
+ margin-left: 175px;
   padding-top: 120px;
   background: #ECEFF1;
-  height: 900px;
+  height: 910px;
   width: 1200px;
   display: flex;
   flex-flow: row wrap;

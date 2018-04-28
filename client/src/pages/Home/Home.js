@@ -5,14 +5,15 @@ const Home = () =>
 <div className="HomeCollection">
 
 <div className="Quote">
-<p> Life is short. Buy the good wine. </p>
+<p> Life is short. </p>
+<p> Buy the good wine. </p>
 </div>
 <p>New to wine? We got you covered.</p>
 <p>Sip Happens is your source for everything wine - We’re all familiar with the stress and frustration 
 associated with wine shopping—What pairs with what? How much should I spend? Is this brand any good?—and the 
 sheer uncertainty of an untrained, uninformed selection. But moreover, we’re familiar with the more-consistent-than-clockwork 
 morning-after migraine that accompanies a night of wine consumption. Here at Sip Happens is 
- where wine lovers meet their new best friend</p>
+ where wine lovers meet their new best friend.</p>
 
 <div className="creator1">
 Kyesten Caldwell
